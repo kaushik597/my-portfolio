@@ -1,11 +1,11 @@
 
-
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
             console.log(this.scrollY,dateObject,"11111111111111111111");
 
             $('.navbar').addClass("sticky");
+            
         }else{
             $('.navbar').removeClass("sticky");
 
@@ -20,6 +20,14 @@ $(document).ready(function(){
 
         }
     })
+
+
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+
+    })
+
 });
 
 $('.scroll-up-btn').click(function(){
@@ -65,5 +73,3 @@ var dateObj= new Date();
 
 // document.getElementById("#exp").innerHTML=NAMASTE
 
-
- 

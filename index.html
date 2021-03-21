@@ -20,26 +20,29 @@
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
-            <!-- <div class="menu-btn">
-                <i class="fas fa bars"></i>
-            </div> -->
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+           
         </div>
     </nav>
 
     <!-- home section start -->
     <section class="home" id="home">
         <div class="max-width">
+            <div class="row">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Kaushik Yadav</div>
                 <div class="text-3">And I'm a <span class="typing">FrontEnd DEV</span></div>
                 <a href="mailto:kaushikyadavjallam005@gmail.com">Hire me</a>
             </div>
+        </div>
         </div>
     </section>
 
@@ -76,7 +79,7 @@
                     <div class="bars">
                         <div class="info">
                             <span>Javascript</span>
-                            <span>70%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line javascript"></div>
 
@@ -84,7 +87,7 @@
                     <div class="bars">
                         <div class="info">
                             <span>ReactJS</span>
-                            <span>60%</span>
+                            <span>70%</span>
 
                         </div>
                         <div class="line reactjs"></div>
@@ -172,24 +175,24 @@
                     <div class="text">
                        Message me 
                     </div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
+                    <form class="contact-form" action="#">
+                        <div class="fields">	
+                            <div class="field name">	
+                                <input type="text" class="fullname" placeholder="Name">	
+                            </div>	
+                            <div class="field email">	
+                                <input type="text" class="email-input" placeholder="Email">	
+                            </div>	
+                        </div>	
+                        <div class="field">	
+                            <input type="text" class="subject" placeholder="Subject">	
+                        </div>	
+                        <div class="field textarea">	
+                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>	
+                        </div>	
+                        <div class="button-area">	
+                            <button class="send-msg" type="submit" name="send">Send message</button>	
                         </div>
-                            <div class="field">
-                                <input type="text" placeholder="Subject" required>
-                            </div>
-                            <div class="field textarea">
-                                <textarea cols="30" rows="10" placeholder="describe project ..." required></textarea>
-                            </div>
-                            <div class="button">
-                                <button type="submit">Send message</button>
-                            </div>
                     </form>
                 </div>
             </div>
