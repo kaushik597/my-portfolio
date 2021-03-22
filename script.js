@@ -36,14 +36,14 @@ $('.scroll-up-btn').click(function(){
 
 
 var typed = new Typed(".typing",{
-    strings:["Software engineer","Developer","Web Dev","Learner","Freelancer","Singer","Cricketer"],
+    strings:["Software engineer","Developer","Web Dev","Learner","Singer","Cricketer"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
 })
 
 var typed = new Typed(".typing-2",{
-    strings:["Software engineer","Developer","Web Dev","Learner","Freelancer","Singer","Cricketer"],
+    strings:["Software engineer","Developer","Web Dev","Learner","Singer","Cricketer"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
